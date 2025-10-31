@@ -74,7 +74,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\Users\luken\source\repos\GravitySim3D\External\glad\include;C:\Users\luken\source\repos\GravitySim3D\External\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\include;C:\Users\luken\source\repos\GravitySim3D\External\glm-1.0.1-light;C:\Users\luken\source\repos\GravitySim3D\External\imgui-1.92.4\imgui-1.92.4;C:\Users\luken\source\repos\GravitySim3D\External\imgui-1.92.4\imgui-1.92.4\backends;C:\Users\luken\source\repos\GravitySim3D\External\stb\stb-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -91,7 +91,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\Users\luken\source\repos\GravitySim3D\External\glad\include;C:\Users\luken\source\repos\GravitySim3D\External\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\include;C:\Users\luken\source\repos\GravitySim3D\External\glm-1.0.1-light;C:\Users\luken\source\repos\GravitySim3D\External\imgui-1.92.4\imgui-1.92.4;C:\Users\luken\source\repos\GravitySim3D\External\imgui-1.92.4\imgui-1.92.4\backends;C:\Users\luken\source\repos\GravitySim3D\External\stb\stb-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -106,7 +106,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\Users\luken\source\repos\GravitySim3D\External\glad\include;C:\Users\luken\source\repos\GravitySim3D\External\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\include;C:\Users\luken\source\repos\GravitySim3D\External\glm-1.0.1-light;C:\Users\luken\source\repos\GravitySim3D\External\imgui-1.92.4\imgui-1.92.4;C:\Users\luken\source\repos\GravitySim3D\External\imgui-1.92.4\imgui-1.92.4\backends;C:\Users\luken\source\repos\GravitySim3D\External\stb\stb-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -123,7 +123,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\Users\luken\source\repos\GravitySim3D\External\glad\include;C:\Users\luken\source\repos\GravitySim3D\External\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\include;C:\Users\luken\source\repos\GravitySim3D\External\glm-1.0.1-light;C:\Users\luken\source\repos\GravitySim3D\External\imgui-1.92.4\imgui-1.92.4;C:\Users\luken\source\repos\GravitySim3D\External\imgui-1.92.4\imgui-1.92.4\backends;C:\Users\luken\source\repos\GravitySim3D\External\stb\stb-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>

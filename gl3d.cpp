@@ -3,8 +3,8 @@
 //built on 2024-01-16
 ////////////////////////////////////////////////
 
+#include <glad/glad.h>
 #include "gl3d.h"
-
 
 #define TINYGLTF_IMPLEMENTATION
 #define STB_IMAGE_WRITE_IMPLEMENTATION

@@ -8,7 +8,7 @@ unsigned int windowHeight = 800;
 
 int main() {
 	glfwInit();
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
@@ -23,6 +23,9 @@ int main() {
 	glfwMakeContextCurrent(window);
 
 	gladLoadGL();
+
+	glViewport(0, 0, windowWidth, windowHeight);
+	glClear(GL_COLOR_BUFFER_BIT);
 
 	while (!glfwWindowShouldClose(window)) {
 		glfwPollEvents();
